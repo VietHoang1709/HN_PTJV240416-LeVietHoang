@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  background-color: #f3f4f6;
+}
+section h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.container {
+  display: flex;
+
+  gap: 20px;
+}
+.container .container-form {
+  flex: 1;
+  background-color: white;
+  margin: 50px 0 50px 50px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.container .container-form2 {
+  flex: 1;
+  background-color: white;
+  margin: 50px 50px 50px 0;
+  border-radius: 5px;
+  padding: 20px;
+}
+.input {
+  border: none;
+  border-bottom: #f8f5f5 solid 1px;
+  width: 100%;
+}
+p {
+  color: #e25c57;
+  margin-bottom: 15px;
+}
+#note {
+  border: none;
+  width: 100%;
+}
+.add-contact {
+  border: none;
+  background-color: #3c68ea;
+  border-radius: 3px;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+}
+.add-contact::placeholder {
+  color: white;
+}
+.search-contact {
+  border: none;
+  border-bottom: solid 1px #f8f5f5;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.sort {
+  margin-bottom: 15px;
+}
+.tilte {
+  background-color: #f9fafb;
+}
+td,
+tr,
+th {
+  padding: 15px;
+}
+table {
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: solid #f8f5f5 1px;
+}
+tr:last-child {
+  border-bottom: none;
+}
+@media screen and(max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and(min-width : 1024px) {
+  body {
+    font-size: 20px;
+  }
+}

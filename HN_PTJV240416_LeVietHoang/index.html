@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <h1>Quản lý Danh bạ Cá nhân</h1>
+      <div class="container">
+        <div class="container-form">
+          <form action="">
+            <h2>Thêm liên hệ mới</h2>
+            <label class="item" for="">Họ tên</label>
+            <br />
+            <input type="text" class="input" />
+            <p>Vui lòng nhập họ và tên</p>
+            <label for="email">Email</label>
+            <br />
+            <input type="email" class="input" />
+            <p>Vui lòng nhập email</p>
+            <label for="">Số điện thoại</label>
+            <br />
+            <input type="tel" class="input" />
+            <p>Vui lòng nhập số điện thoại</p>
+            <label for="">Địa chỉ</label>
+            <br />
+            <input type="text" class="input" />
+            <p>Vui lòng nhập địa chỉ</p>
+            <label for="">Ghi chú</label>
+
+            <br />
+
+            <textarea name="" id="note" rows="4"></textarea>
+            <p>Vui lòng nhập ghi chú</p>
+            <input type="text" class="add-contact" placeholder="Thêm liên hệ" />
+          </form>
+        </div>
+        <div class="container-form2">
+          <input
+            class="search-contact"
+            type="text"
+            placeholder="Tìm kiếm liên hệ..."
+          />
+          <br />
+          <div class="sort">
+            <span>Sắp xếp theo tên (A-Z)</span>
+            <select name="fullName" id="fullName"></select>
+          </div>
+          <div>
+            <table>
+              <thead class="tilte">
+                <tr class="tr">
+                  <td>
+                    <label for="">
+                      <input type="checkbox" />
+                    </label>
+                  </td>
+                  <td>HỌ TÊN</td>
+                  <td>EMAIL</td>
+                  <td>SỐ ĐIỆN THOẠI</td>
+                </tr>
+              </thead>
+              <tbody class="content">
+                <tr class="tr">
+                  <td>
+                    <label for="">
+                      <input type="checkbox" />
+                    </label>
+                  </td>
+                  <td>NGUYEN THANH BINH PHUOC</td>
+                  <td>phuocntb@mieusoft.com</td>
+                  <td>0329577177</td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="">
+                      <input type="checkbox" />
+                    </label>
+                  </td>
+                  <td>tieucanmieu</td>
+                  <td>phuocntb@mieusoft.com</td>
+                  <td>0329577177</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
